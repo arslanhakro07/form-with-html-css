@@ -1,0 +1,111 @@
+img {
+    margin-right: 500px;
+    height: 50px;
+}
+
+strong {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+
+    box-shadow: 10px 5px 10px grey;
+}
+
+.fields {
+    width: 200px;
+    height: 30px;
+    border: none;
+    box-shadow: 10px 5px 10px grey;
+}
+
+.text-fields {
+    width: 200px;
+    height: 30px;
+
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#container {
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 800px;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+input {
+
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+select {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+span {
+    color: red;
+
+
+}
+
+label {
+    margin: 100px;
+
+
+}
+
+#address {
+    width: 430px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#education-label {
+    margin-left: 330px;
+
+}
+
+#picture {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(22, 88, 22);
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+
+
+#passport {
+    border: 1px solid gray;
+    width: 500px;
+    height: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+#btn {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: rgb(22, 88, 22);
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+}

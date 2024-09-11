@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <nav>
+        <img src="https://th.bing.com/th/id/OIP.je6-82bGUwVeJcspiJe31gHaBV?rs=1&pid=ImgDetMain" alt="">
+        <strong>Download PDF</strong>
+        <strong>Registration</strong>
+
+    </nav>
+    <center>
+        <div id="container">
+            <h1>Registration Form</h1>
+            <label for="city" id="city-label">City <span>*</span></label>
+            <label for="Institute" id="institute-label">Institute<span>*</span></label>
+            <label for="course" id="course-label">Course<span>*</span></label>
+            <br>
+
+
+            <select name="city" id="city" class="fields">
+                <option value="">select option</option>
+                <option value="city">shp</option>
+                <option value="">sukkur</option>
+                <option value="">karachi</option>
+
+            </select>
+
+
+
+
+            <select name="Institute" id="institute" class="fields">
+                <option value="">select option</option>
+                <option value="city">Fast university</option>
+                <option value="">Karachi university</option>
+                <option value="">Szabist</option>
+
+            </select>
+
+            <select name="course" id="course" class="fields">
+                <option value="">select option</option>
+                <option value="course">Html</option>
+                <option value="">Css</option>
+                <option value="">Java-Script</option>
+
+            </select>
+            <label for="timing" id="timing-label">Time?<span>*</span></label>
+            <label for="fname" id="fname-label">FullName<span>*</span></label>
+            <label for="parents" id="parents-label">Guardian<span>*</span></label>
+
+
+
+            <select name="time" id="timing" class="fields">
+                <option value="">select timing</option>
+                <option value="time">10pm-12pm</option>
+                <option value="">8pm-10pm</option>
+                <option value="">6pm-8pm</option>
+            </select>
+
+
+            <input type="text" class="text-fields" placeholder="">
+            <input type="text" class="text-fields" placeholder="">
+
+
+            <label for="email" id="email-label">Email<span>*</span></label>
+            <label for="fname" id="">Contact<span>*</span></label>
+            <label for="parents" id="">parents-no<span>*</span></label>
+
+            <input type="email" class="text-fields" placeholder="arslan@gmail.com">
+            <input type="number" class="text-fields" placeholder="03xxxxxxxxx">
+            <input type="number" class="text-fields" placeholder="03xxxxxxxxx">
+
+            <label for="Cnic" id="">CNIC<span>*</span></label>
+            <label for="gender" id="">Gender<span>*</span></label>
+            <label for="DoB" id="DOB">Date of birth<span>*</span></label>
+
+            <input type="number" class="text-fields" placeholder="4xxxxxxxxxxxx">
+
+            <select name="gender" id="gender" class="fields">
+                <option value="">select gender</option>
+                <option value="">male</option>
+                <option value="">female</option>
+
+            </select>
+
+
+            <input type="date" class="text-fields">
+            <label for="address" id=""> Address<span>*</span>
+            </label>
+            <label for="education" id="education-label">Education<span>*</span></label>
+            <input type="text" id="address">
+
+
+            <select name="education" id="education" class="fields">
+                <option value="">select option</option>
+                <option value="">Matric</option>
+                <option value="">Intermediate</option>
+                <option value="">Bachelor,s</option>
+
+            </select>
+
+            <br>
+            <p>Passport Size Profile Image(face front and decent picture)</p>
+            <div id="passport">
+                <div>
+                    <input type="submit" value="Choose file" id="picture">
+                    <label for="">No file Choosen</label>
+                </div>
+
+            </div>
+
+            <input type="submit" value="Submit form" id="btn">
+
+
+        </div>
+
+    </center>
+
+
+</body>
+
+</html>
